@@ -7,8 +7,8 @@ nltk.download('stopwords')
 nltk.download('punkt_tab')
 nltk.download('wordnet')
 
-model = pickle.load(open('models/model.pkl', 'rb'))
-vectorizer = pickle.load(open('models/vectorizer.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
 st.title('Sentiment Analysis App using ML')
 st.text('Hello, world!')
